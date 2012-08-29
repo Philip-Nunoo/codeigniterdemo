@@ -1,0 +1,63 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Try Template</title>
+<!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+<link href="bootstrap/css/style.css" rel="stylesheet">
+<style type="text/css">
+	.margin {
+		margin: 12% auto;
+		width: 100%;
+		}
+</style>
+</head>
+<body>
+<div class="row-fluid toppane fixed-top">
+	<div class="span10 heading offset2">
+		<h2>Crak Vote System (CVS)</h2>
+	</div>
+</div>
+<div id="break">&nbsp;</div>
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span5 offset1">
+		<img src="bootstrap/images/login.png" style="float: left"/><h1>Crak Vote System (CVS)</h1>
+		<p style="clear: left; color: #3366FF;"><hr>
+			Crak Vote System is your one stop
+			to automate that election within your area.
+			<hr>
+			Use CVS to get all your voting results.
+			and conduct elections across large groups of people.
+			With this system you are guaranteed of
+			safe, secure, rig free elections.<br/><br/>
+			<ul class="list">
+				<li>Vote With ease</li>
+				<li>Transparency</li>
+				<li>Low cost</li>
+				<li>Efficient</li>
+			</ul>
+
+			<hr>
+			Call <a href="#">us</a> and start using crak vote
+		</p>
+		</div>
+		<div class="span4 offset1">
+		<div class="cover">
+			<h2> CVS Login<img src="bootstrap/images/login.png" style="float: right" width="40px" /></h2>
+			<p style="clear: right; color: #3366FF;"><hr/>Please Obtain your password from your
+			system Administrator to login.
+			</p>
+   <?php echo validation_errors(); ?>
+   <?php echo form_open('verifylogin'); ?>
+			<label for="studentid"><b>ID Number</b></label><input type="text" id="studentid"/><br>
+			<label for="password"><b>Password</b></label><input type="password" id="password"/><br>
+			<input type="submit" class="btn" value="Login"/>
+		</div>
+		</div>
+	</div>
+</div>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

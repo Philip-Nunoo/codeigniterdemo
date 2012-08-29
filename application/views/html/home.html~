@@ -1,0 +1,48 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Try Template</title>
+<!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+<link href="bootstrap/css/style.css" rel="stylesheet">
+<style type="text/css">
+	.margin {
+		margin: 12% auto;
+		width: 100%;
+		}
+</style>
+</head>
+<body>
+<div class="row-fluid toppane fixed-top">
+	<div class="span10 heading offset2">
+		<h2>Crak Vote System (CVS)</h2>
+	</div>
+</div>
+<div id="break">&nbsp;</div>
+<div class="container">
+	<div class="row-fluid">
+		<div class="span8 offset2" style="">
+		<div class="hero-unit" style="padding-top: 10px; border: solid black 5px;">
+			<h2>Crak Secure Page</h2><br/>
+	
+			<h3>Welcome User</h3>
+			This is a secured portal you are about cast your vote. Crak is only responsible in assisting you make that vote
+			easily with our responsible <span style="color: blue">UI</span>.<br/>
+			Your vote are stored within a secured place until a one time retrieval by <br>
+			your administators.
+
+			<hr><h3>Responsibility</h3>
+			You are here by notified that you and only you are responsible for each vote you cast. And the administrators
+			would not be held liable to your choice of candidate during this process.
+			To begin registration click <a href="#">Next</a>
+			<br/>
+			<p><a class="btn btn-primary btn-large" href="#">Next &raquo;</a></p>
+	
+		</div>
+		</div>
+	</div>
+</div>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
